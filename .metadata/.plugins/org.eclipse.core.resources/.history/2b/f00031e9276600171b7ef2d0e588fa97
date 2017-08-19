@@ -1,0 +1,11 @@
+package myproject;
+
+class Bike {
+
+	void run() {System.out.println("running");}
+}
+ class Splender extends Bike {
+	 void run() {System.out.println("running safely with 60km");}
+
+}
+

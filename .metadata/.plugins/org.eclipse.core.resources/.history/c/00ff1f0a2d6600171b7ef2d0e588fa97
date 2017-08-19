@@ -1,0 +1,19 @@
+package myproject;
+
+
+public class Animals {
+	public virtual void Voice() {System.out.println("Hałas"); }
+}
+
+class Dogs extends Animals {
+		void Voice() {System.out.println("Hau! Hau!"); }
+}
+
+class Cats extends Animals {
+	void Voice() {System.out.println("Miauł! Miauł!"); }
+
+}
+class Owl extends Animals{
+	void Voice() {System.out.println("Hu! Hu!"); }
+
+}

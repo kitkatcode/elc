@@ -1,0 +1,14 @@
+package myproject;
+
+class Dogs {
+		void Voice() {System.out.println("Hau! Hau!"); }
+}
+
+class Cats {
+	void Voice() {System.out.println("Miauł! Miauł!"); }
+
+}
+class Owl{
+	void Voice() {System.out.println("Hu! Hu!"); }
+
+}
